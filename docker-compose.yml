@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bedriftsrdetbod:
+    image: ${DOCKER_REGISTRY-}bedriftsrdetbod
+    build:
+      context: .
+      dockerfile: BedriftsrådetBodø/Dockerfile

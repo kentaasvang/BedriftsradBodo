@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace BedriftsrådetBodø.Pages
+namespace LynxPublishing.Pages
 {
     public class IndexModel : PageModel
     {
@@ -19,7 +19,6 @@ namespace BedriftsrådetBodø.Pages
 
         public void OnGet()
         {
-
         }
     }
 }

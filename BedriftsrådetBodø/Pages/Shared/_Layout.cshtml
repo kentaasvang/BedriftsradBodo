@@ -35,7 +35,8 @@
                 <i class="icofont-envelope"></i><a href="mailto:contact@example.com">svend@brbodo.no</a>
                 <i class="icofont-phone"></i> +47 412 98 159
             </div>
-
+            
+            <!--
             <div class="social-links">
                 <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
                 <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
@@ -43,23 +44,38 @@
                 <a href="#" class="skype"><i class="icofont-skype"></i></a>
                 <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
             </div>
+			-->
         </div>
     </section>
 
     <!-- ======= Header ======= -->
     <header id="header">
         <div class="container d-flex">
-            <div class="logo mr-auto">
-                <h1 class="text-light"><a href="/"><span> Bedriftsråd Bodø </span></a></h1>
+            <div class="logo mr-auto mt-1">
+                <!--<h1 class="text-light d-none d-md-block"><a href="/"><span> Bedriftsråd Bodø </span></a></h1>-->
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                <a href="/Index">
+                    <!-- logo for big screens -->
+		            <img src="img/logo.png" alt="" class="img-fluid d-none d-sm-block">
+                    <!-- logo for small screens -->
+		            <img src="img/logo-small.png" alt="" class="img-fluid d-xs-block d-sm-none">
+		        </a>
             </div>
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="/">Hjem</a></li>
                     <li><a href="/About">Om</a></li>
-                    <li><a href="/Services">Våre tjenester</a></li>
+                    <li class="drop-down">
+                        <a href="/Services">Våre tjenester</a>
+                        <ul>
+                            <li><a href="#">Regnskap</a></li>
+                            <li><a href="#">Lønn</a></li>
+                            <li><a href="#">Skatt</a></li>
+                            <li><a href="#">Rådgiving</a></li>
+                        </ul>
+                    </li>
+
                     <li><a href="/Contact">Kontakt oss</a></li>
                 </ul>
             </nav><!-- .nav-menu -->
@@ -71,6 +87,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
 
+        <!--
         <div class="footer-newsletter">
             <div class="container">
                 <div class="row">
@@ -86,44 +103,44 @@
                 </div>
             </div>
         </div>
+	    -->
 
         <div class="footer-top">
         <div class="container">
         <div class="row">
 
         <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Sider</h4>
             <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="/">Hjem</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="/Contact">Om oss</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/About">Om oss</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="/Services">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="/Error">Terms of service</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="/Privacy">Privacy policy</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="/Contact">Terms of service</a></li>
             </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Våre tjenester</h4>
             <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Regnskap</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Lønn</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Skatt</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Rådgiving</a></li>
             </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4>Kontakt oss</h4>
             <p>
-                A108 Adam Street <br>
-                New York, NY 535022<br>
-                United States <br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <br>
+                Sjøgata 38<br>
+                8006 Bodø <br><br>
+                <strong>Telefon:</strong> +47 412 98 159<br>
                 <strong>Email:</strong> info@example.com<br>
             </p>
         </div>
 
+        <!--
         <div class="col-lg-3 col-md-6 footer-info">
             <h3>About Eterna</h3>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
@@ -135,6 +152,7 @@
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
         </div>
+        -->
 
         </div>
         </div>

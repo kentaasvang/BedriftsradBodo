@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace LynxPublishing.Pages
+namespace BedriftsrådetBodø.Pages
 {
     public class ServicesModel : PageModel
     {
